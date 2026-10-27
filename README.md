@@ -4,11 +4,11 @@
 
 **Teachers:** start a conversation with Claude and say:
 
-> Read this brief and follow it: https://raw.githubusercontent.com/diocesanschoolforgirls/unit-decks-brief/main/README.md. Then I'll share my unit materials.
+> Read the full text of this brief (not a summary) and follow it: https://raw.githubusercontent.com/diocesanschoolforgirls/unit-decks-brief/main/README.md. Then I'll share my unit materials.
 
 If Claude says it can't open the link, download this page and attach the file instead. To read the brief yourself: https://interactives.diocesan.school.nz/unit-decks-brief/
 
-**Claude:** everything below is written to you. Read all of it before you reply.
+**Claude:** everything below is written to you. Read all of it before you reply. If your tool for opening links gives you only a summary, fetch the raw text another way (for example with `curl`): you need every section.
 
 ---
 
@@ -36,7 +36,7 @@ This is a conversation, not a production line. The back-and-forth is what keeps 
 - the unit plan
 - content notes, or the teacher's own summary of what students should know
 - the lab manual or workbook (note its page numbers)
-- the assessment and mark scheme, even last year's
+- the assessment and mark scheme, even last year's (tell the teacher it is only used to check the decks never copy it; it never goes into them)
 - how many lessons are available before the assessment
 - what has worked well in past years
 
@@ -58,7 +58,7 @@ Then **stop and wait for the teacher's approval.** Don't build until they agree 
 
 These hold whatever else changes.
 
-1. **Never reuse the assessment's content in the decks.** The decks are public. Don't use the test's scenarios, organisms, data sets or wording in practice questions, examples or exit questions. Practise the same *skill* in a different context, with made-up data labelled "Example data". Core facts students must learn (from the unit's learning outcomes) are fine. If you notice an overlap, flag it rather than quietly keeping it.
+1. **Never reuse the assessment's content in the decks.** The decks are public. Don't use the test's scenarios, organisms, data sets or wording in practice questions, examples or exit questions. Practise the same *skill* in a different context, with made-up data labelled "Example data". Core facts students must learn (from the unit's learning outcomes) are fine. If you notice an overlap, flag it rather than quietly keeping it. If there is no assessment yet, ask what students will be assessed on, and do this check once it exists.
 2. **Only use images you are allowed to use.** Creative Commons (CC BY, CC BY-SA, CC0) or public domain only. Credit every image on the slide where it appears: author, licence, and a link to its source page. Keep a `credits.json` list as well.
 3. **Be accurate.** If the teacher's notes contain an error, point it out and use the correct version. Round numbers sensibly and say when figures are estimates.
 4. **Every deck ends with an exit question and a "Missed this lesson?" slide.** The catch-up slide tells an absent student exactly what to read, do and write, using lab manual pages where they exist.
